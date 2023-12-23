@@ -1,0 +1,96 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 28, 2022, 10:15:09 PM
+    Author     : ACER
+*/
+
+
+.top-form{
+    -fx-background-color: #99c2fb;
+}
+
+.nav-btn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px; 
+    -fx-font-family:"Arial";
+    -fx-alignment: CENTER_LEFT;
+    
+}
+.nav-btn:hover{
+    -fx-background-color: #CDF0EA;
+}
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+}
+    
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,4), 4,0,0,0);
+}
+
+.logout-btn{
+    -fx-background-color: #ff3f2b; 
+    -fx-background-radius: 20px;
+    -fx-cursor: hand; 
+}
+
+.logout-btn:hover{
+    -fx-background-color: #ff5959;
+}
+
+
+.main{
+    -fx-background-color: #CDF0EA;
+}
+.main-top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: 0px 0px .4px 0px;
+}
+
+
+.nav-form{
+    -fx-background-color: linear-gradient(to bottom right, #970D1A,#4E204D);
+}
+ 
+.white-bg-dua{
+    -fx-background-color: linear-gradient(to bottom right, #293462,#1C3879);
+    
+}
+
+
+.card{
+    -fx-background-color: #89CFFD;
+    -fx-background-radius: 5px;
+}
+.card2{
+    -fx-background-color: #DD5353;
+    -fx-background-radius: 5px;
+}
+.card3{
+    -fx-background-color: #A8E890;
+    -fx-background-radius: 5px;
+}
+
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.close:hover{
+    -fx-background-color: #e03f5a;
+}
+
+.minimize{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;  
+}
+.minimize:hover{
+    -fx-background-color: #CDF0EA;
+}
+
+

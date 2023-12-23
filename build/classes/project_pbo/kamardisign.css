@@ -1,0 +1,194 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 29, 2022, 12:41:26 AM
+    Author     : ACER
+*/
+
+
+.cmb-box{
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+    -fx-border-color: linear-gradient(to right, #9BA17B,#7c7151); 
+    -fx-border-width: .8px;
+    -fx-border-radius: .5px;
+}
+
+.cmb-box:focused{
+    -fx-border-color: linear-gradient(to bottom right, #61764B,#9BA17B);
+    -fx-border-width: 1.5px;
+}
+    
+.background-putih{
+    -fx-background-color: #fff
+}
+
+/*Kamar tersedia*/
+
+.textfield{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+    -fx-border-color: linear-gradient(to right, #9BA17B,#7c7151); 
+    -fx-border-width:0px 0px .8px 0px;
+    -fx-font-size: 14px;
+}
+
+.textfield:focused{
+    -fx-background-color: transparent;
+  
+}
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.close:hover{
+    -fx-background-color: #e03f5a;
+}
+
+.minimize{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;  
+}
+.minimize:hover{
+    -fx-background-color: #CDF0EA;
+}
+
+.add-btn{
+    -fx-background-color: #B3FFAE;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family:"Tahoma";
+    
+}
+
+.add-btn:hover{
+    -fx-background-color: #79d672;
+}
+
+.upt-btn{
+    -fx-background-color: #5DA7DB;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family:"Tahoma";
+    
+}
+
+.upt-btn:hover{
+    -fx-background-color: #0484d3;
+}
+
+
+.clr-btn{
+    -fx-background-color: #FF7D7D;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family:"Tahoma";
+    
+}
+
+.clr-btn:hover{
+    -fx-background-color: #FF6464;
+}
+
+.hps-btn{
+    -fx-background-color: #DD5353;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family:"Tahoma";
+    
+}
+
+.hps-btn:hover{
+    -fx-background-color: #B73E3E;
+}
+.check-in-btn{
+    -fx-background-color: #2bb11f;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family:"Tahoma";
+    
+}
+
+.check-in-btn:hover{
+    -fx-background-color: #1c8612;
+}
+
+.search{
+    -fx-background-color: transparent;
+    -fx-background-radius: 15px;
+    -fx-border-color: linear-gradient(to bottom right, #2f3f89, #9231b5);
+    -fx-background-radius: 5px 12px 5px 5px;
+    -fx-border-width: 1px;
+    -fx-padding: 0px 0px 0px 25px;
+}
+
+.search:hover{
+    -fx-border-width: 1.8px;
+}
+
+.tabel-viw{
+    -fx-background-color: transparent;
+    -fx-padding: 0px;
+    -fx-border-color: #99c2fb;
+    -fx-border-radius: 8px;  
+}
+
+.tabel-viw .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right, #970D1A,#4E204D);
+    -fx-background-insets: 0 0 0 0;
+ 
+}
+
+.tabel-viw .column-header, filter{
+    -fx-background-color: transparent;
+    -fx-size:50px;
+}
+.nav-form{
+    -fx-background-color: linear-gradient(to bottom right, #970D1A,#4E204D);
+}
+.abu-abu-background{
+    -fx-background-color: linear-gradient(to bottom right, #AAFEFF,#801155);
+}
+
+.nav-btn{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px; 
+    -fx-font-family:"Arial";
+    -fx-alignment: CENTER_LEFT;
+    
+}
+.nav-btn:hover{
+    -fx-background-color: #CDF0EA;
+}
+
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+}
+    
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,4), 4,0,0,0);
+}
+.logout-btn{
+    -fx-background-color: #ff3f2b; 
+    -fx-background-radius: 20px;
+    -fx-cursor: hand; 
+}
+
+.logout-btn:hover{
+    -fx-background-color: #ff5959;
+}

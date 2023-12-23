@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="stack_form" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project_pbo.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="main_form" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="488.0" prefWidth="600.0" styleClass="left-form" stylesheets="@LoginDesign.css">
+               <children>
+                  <AnchorPane layoutX="151.0" layoutY="70.0" prefHeight="379.0" prefWidth="299.0" styleClass="white-bg" stylesheets="@LoginDesign.css" AnchorPane.rightAnchor="150.0">
+                     <children>
+                        <Label layoutX="116.0" layoutY="116.0" text="Sign In" textFill="#9ba17b">
+                           <font>
+                              <Font name="Segoe UI Black" size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="username" layoutX="52.0" layoutY="170.0" prefHeight="30.0" prefWidth="200.0" promptText="Username" styleClass="textfield" stylesheets="@LoginDesign.css" AnchorPane.leftAnchor="52.0" AnchorPane.rightAnchor="51.0">
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </TextField>
+                        <PasswordField fx:id="password" layoutX="52.0" layoutY="218.0" prefHeight="30.0" prefWidth="200.0" promptText="Password" styleClass="textfield" stylesheets="@LoginDesign.css" AnchorPane.leftAnchor="52.0" AnchorPane.rightAnchor="51.0">
+                           <font>
+                              <Font name="Showcard Gothic" size="12.0" />
+                           </font>
+                        </PasswordField>
+                        <Button fx:id="loginBtn" layoutX="107.0" layoutY="286.0" mnemonicParsing="false" onAction="#login" prefHeight="30.0" prefWidth="82.0" styleClass="login-btn" stylesheets="@LoginDesign.css" text="Login" textFill="WHITE" AnchorPane.leftAnchor="107.0" AnchorPane.rightAnchor="105.0" />
+                        <FontAwesomeIcon fill="#a6bf8b" iconName="BUILDING" layoutX="119.0" layoutY="101.0" size="6em" text="" />
+                     </children>
+                  </AnchorPane>
+                  <Button fx:id="close" layoutX="555.0" layoutY="5.4" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="43.0" styleClass="close" stylesheets="@LoginDesign.css" AnchorPane.bottomAnchor="460.0" AnchorPane.leftAnchor="555.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="5.0">
+                     <graphic>
+                        <FontAwesomeIcon iconName="CLOSE" size="1.2em" wrappingWidth="11.314285278320312" />
+                     </graphic>
+                  </Button>
+               </children></AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
